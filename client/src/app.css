@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sp-bt {
+  justify-content: space-between;
+}
+
+.sp-ar {
+  justify-content: space-around;
+}
+.center {
+  justify-content: center;
+}
+
+.mgl-sm {
+  margin-left: 10px;
+}
+
+.mgt-lg {
+  margin-top: 2rem;
+}
+
+.pd-sm {
+  padding: 5px;
+}
+
+.pd-lg {
+  padding: 1rem;
+}
+
+.btn {
+  padding: 0.6rem;
+  background-color: #97eacf;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #4cbb96;
+}
+
+.btn-lg {
+  padding: 1rem 6rem;
+}
+
+.active {
+  background-color: coral;
+  cursor: pointer;
+}
+
+/* logo */
+
+.restlogo {
+  font-size: 1.5rem;
+  border: 2px solid cornflowerblue;
+  border-radius: 0.5rem;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #55bcc9;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+/* form */
+.form-input input {
+  padding: 10px 3rem;
+
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.form-control {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* alert */
+
+.alert {
+  position: absolute;
+  top: 6rem;
+  right: 3rem;
+  padding: 1rem;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.danger {
+  background-color: crimson;
+}
+.success {
+  background-color: rgb(50, 163, 125);
+}
+
+/* card */
+.menu-header {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.image img {
+  background-color: aqua;
+  width: 100%;
+  height: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+  margin-top: 1rem;
+}
+.card-column {
+  width: 300px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.card-des {
+  padding: 10px 2rem;
+}
+
+.card-des * {
+  margin-top: 5px;
+}
+
+.card-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #97eacf;
+  border: none;
+  outline: none;
+}
+
+.card-btn:hover {
+  background-color: #55b696;
+}
+
+/* cart */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+  padding: 2rem;
+  border: 2px rgb(42, 136, 136) solid;
+  border-radius: 1rem;
+}
+
+.cart-img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+}
+
+.cart-item {
+  padding: 1rem;
+  display: flex;
+  border: 2px rgb(42, 136, 136) solid;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.cart-quantity {
+  display: flex;
+  width: 3rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.cart-quantity button {
+  border: none;
+  padding: 0.5rem;
+  background-color: rgb(81, 192, 155);
+  border-radius: 5px;
+}
+
+.cart-quantity button:hover {
+  border: none;
+  padding: 0.5rem;
+  background-color: rgb(48, 145, 112);
+  border-radius: 5px;
+}
+
+.cart-delete-btn {
+  border: none;
+  background-color: rgb(58, 151, 120);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.cart-delete-btn:hover {
+  border: none;
+  background-color: rgb(226, 64, 35);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.cart-header {
+  display: flex;
+  color: rgb(41, 160, 101);
+  justify-content: space-around;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  background-color: #97eacf;
+  margin-bottom: 1rem;
+}
+
+.placeOrder {
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+.placeOrder button {
+  border: none;
+  padding: 0.5rem 2rem;
+
+  font-size: 1.2rem;
+  width: 20rem;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+.placeOrder button:hover {
+  width: 20rem;
+  background-color: rgb(17, 146, 103);
+}
+
+/* spinner */
+
+.spinner {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.spinner img {
+  height: 10rem;
+  width: 10rem;
+}
