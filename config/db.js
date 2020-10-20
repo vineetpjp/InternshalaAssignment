@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-// const dbUrl = process.env.dbUrl || 'mongodb://localhost/internshala';
-const dbUrl = `mongodb+srv://vineetpjp:kavitakavita@cluster0-ojy9m.mongodb.net/Internshala-assignment?retryWrites=true&w=majority`;
+const dbUrl = process.env.dbUrl;
 
 const connectDb = async () => {
   try {
