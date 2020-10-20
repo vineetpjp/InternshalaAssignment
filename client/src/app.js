@@ -3,7 +3,7 @@ import { Router, Route, Switch } from 'react-router-dom';
 import {connect} from 'react-redux';
 import { loadUser } from './actions/auth';
 import history from './history';
-import PrivateRoute from './routes/privateRoutes';
+import PrivateRoute from './utils/routes/privateRoutes';
 import setAuthToken from './utils/setAuthToken'
 
 import Alert from './components/layout/alert';
